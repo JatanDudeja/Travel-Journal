@@ -1,13 +1,128 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* .App{
+  width: 550px;
+  margin: auto;
+  border: 2px solid blue;
+} */
+
+.navbar{
+  height: 75px;
+  background-color: #F55A5A;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar-text{
+  font-size: 35px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: white;
+}
+
+.journey-container{
+  display: flex;
+  margin-top: 65px;
+  margin-left: 60px;
+}
+
+
+.journey-image{
+  width: 225px;
+  height: 268px;
+  border-radius: 5px;
+}
+
+
+.journey-aboutJourney{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  max-width: 90%;
+}
+
+.journey-date{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+
+color: #2B283A;
+}
+
+
+.journey-placeName{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+color: #2B283A;
+}
+
+.journey-details-container{
+  margin-left: 20px;
+}
+
+
+.journey-country > span{
+  margin-right: 10px;
+}
+
+
+.journey-countryName{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 12px;
+letter-spacing: 0.17em;
+
+color: #2B283A;
+}
+
+
+.journey-country > a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  color: #918E9B;
+}
+
+
+.journey-country{
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+
+.journey-aboutJourney{
+  font-size: 15px;
+  line-height: 1.1em;
 }
